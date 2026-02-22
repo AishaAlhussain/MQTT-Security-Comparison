@@ -206,8 +206,9 @@ class Broker:
         return True
 
 class AttackSimulator:
-    """Tests mitigations against known vulnerabilities"""
-    
+    """Tests mitigations against known vulnerabilities  Attack scenarios based on Laghari et al. (2024)
+"""
+
     def __init__(self, b: Broker):
         self.broker = b
         self.results = {}
